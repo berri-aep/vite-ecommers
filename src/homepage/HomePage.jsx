@@ -4,6 +4,7 @@ import Footer from './Footer'
 import Hero from './Hero'
 import NewCollection from './NewCollection'
 import WeddingBanner from './WeddingBanner'
+import Category from './Category'
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
                 product in a Tolus Spring Collection." btn="Buy Now" />
         <NewCollection/>
         <WeddingBanner/>
+        <Category/>
       <Footer />
     </>
   );

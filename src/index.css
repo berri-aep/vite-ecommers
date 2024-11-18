@@ -48,4 +48,39 @@
     .container {
     @apply max-w-[2100px] mx-auto px-4;
   }
+
+  .footer__right li{
+    @apply opacity-70 pb-1;
+  }
+
+  .footer__right {
+    @apply text-xl;
+  }
+
+  .footer__right h5 {
+    @apply text-2xl pb-5 md:pb-10 font-semibold;
+  }
+  
+  .menu-btn span{
+    @apply h-[3px] w-7 rounded-md block mb-1 transition-all duration-700 bg-black;
+  }
+
+  .menu-btn.active span:nth-child(2){
+    @apply opacity-0 transition-all duration-700;
+  }
+  .menu-btn.active span:nth-child(1){
+    @apply rotate-[130deg] transition-all duration-700 translate-y-3;
+  }
+
+  .menu-btn.active span:nth-child(3){
+    @apply -rotate-[130deg] transition-all duration-700 -translate-y-[2px];
+  }
+
+  .header__wrapper{
+    @apply transition-all duration-500;
+  }
+  
+  .header__wrapper.active{
+    @apply left-0 transition-all duration-500;
+  }
 }

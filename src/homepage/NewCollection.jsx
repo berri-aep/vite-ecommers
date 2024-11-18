@@ -42,14 +42,14 @@ const NewCollection = () => {
         }
     ]
   return (
-    <section className="newCollection pt-[10rem]">
+    <section className="newCollection pt-[5rem] md:pt-[10rem]">
       <div className="container">
         <Head
           title="new collection"
           subheader="Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Exercitationem, cum?"
         />
-        <div className="newCollection__wrapper grid grid-cols-3 gap-5">
+        <div className="newCollection__wrapper grid md:grid-cols-3 gap-5">
           {newCollectionArray.map((item, key) => (
             <>
               <CollectionItem item={item} key={key} />

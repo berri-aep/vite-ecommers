@@ -1,6 +1,7 @@
 import { imgPath } from '@/helpers/function-general'
 import React from 'react'
 import Head from './Head'
+import { Link } from 'react-router-dom';
 
 const WeddingBanner = () => {
   return (
@@ -17,7 +18,7 @@ const WeddingBanner = () => {
         subheader="Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Exercitationem, cum?"
       />
-      <button className='bg-black text-white rounded-full py-3 px-10 text-[20px]'>See Details</button>
+      <button className='bg-black text-white rounded-full py-3 px-10 text-[20px]'><Link to="/">See Details</Link></button>
     </section>
   );
 }
